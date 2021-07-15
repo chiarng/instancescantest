@@ -24,8 +24,8 @@ jobs:
               id: scan
               with:
                 # scantype is always Required
-                scantype: suite_update
-                suiteSysId: aff2a4261b9578507e0d0d02604bcb38
+                scantype: point
+                targetSysId: e35764108753001001c8de05b7cb0b5b
               env:
                 nowUsername: ${{ secrets.NOW_USERNAME }}
                 nowPassword: ${{ secrets.NOW_PASSWORD }}
