@@ -26,6 +26,7 @@ jobs:
                 # scantype is always Required
                 scantype: point
                 targetSysId: e35764108753001001c8de05b7cb0b5b
+                targetTable: scan_script_only_check
               env:
                 nowUsername: ${{ secrets.NOW_USERNAME }}
                 nowPassword: ${{ secrets.NOW_PASSWORD }}
